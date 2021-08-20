@@ -26,13 +26,14 @@
         <form action="" class="form">
             <div class="colors">
                 <div class="color">
-                    <label for="redNumber">Red</label>
+                    <label for="redNumber">R</label>
                     <input 
-                        type="number" 
+                        type="text" 
                         name="redNumber" 
                         id="redNumber"
                         min="0"
                         max="255"
+                        minlength="0"
                         maxlength="3"
                         value="0">
                     <input 
@@ -44,13 +45,14 @@
                 </div>
 
                 <div class="color">
-                    <label for="greenNumber">Green</label>
+                    <label for="greenNumber">G</label>
                     <input 
-                        type="number" 
+                        type="text" 
                         name="greenNumber" 
                         id="greenNumber"
                         min="0"
                         max="255"
+                        minlength="0"
                         maxlength="3"
                         value="0">
                     <input 
@@ -62,13 +64,14 @@
                 </div>
                 
                 <div class="color">
-                    <label for="blueNumber">Blue</label>
+                    <label for="blueNumber">B</label>
                     <input 
-                        type="number" 
+                        type="text" 
                         name="blueNumber" 
                         id="blueNumber"
                         min="0"
                         max="255"
+                        minlength="0"
                         maxlength="3"
                         value="0">
                     <input 
@@ -79,10 +82,10 @@
                         max="255">
                 </div>
                 
-                <button type="submit">Converter</button>
+                <button type="submit" class="botao">Converter</button>
             </div>
             <div class="color-preview">
-                Color Preview
+                <span>Color Preview</span>
             </div>
                 
         </form>
